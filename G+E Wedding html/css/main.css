@@ -1,6 +1,4 @@
-    /*These rules create the basic layout
-:command slash: 
-shortcut for commenting*/
+    /*These rules create the basic layout*/
     
     html {
         width: 100%;
@@ -133,6 +131,9 @@ shortcut for commenting*/
         font-size: 100%;
         margin: 0px;
     }
+    .aboutus {
+        padding-bottom: 5%;
+    }
     .travelcontent {
         margin-right: 50%;
     }
@@ -151,7 +152,6 @@ shortcut for commenting*/
     .contact {
         text-decoration: none;
         font-family: 'Slabo 13px', serif;
-        ;
         margin-left: 5%;
     }
     .contacttext {
@@ -162,6 +162,10 @@ shortcut for commenting*/
         width: 20px;
         margin-left: 5%;
         padding-top: 25px;
+    }
+    .aboutimg {
+        width: 250px;
+        height: 250px;
     }
     @media only screen and (min-width: 1100px) {
         body {
