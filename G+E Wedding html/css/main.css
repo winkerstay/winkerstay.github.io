@@ -1,0 +1,183 @@
+    /*These rules create the basic layout
+:command slash: 
+shortcut for commenting*/
+    
+    html {
+        width: 100%;
+    }
+    .fixed-bg {
+        /* The background image */
+        background-image: url("../images/index-01.png");
+        /* Set a specified height, or the minimum height for the background image */
+        min-height: 1000px;
+        /* Set background image to fixed (don't scroll along with the page) */
+        background-attachment: fixed;
+        /* Center the background image */
+        background-position: center;
+        /* Set the background image to no repeat */
+        background-repeat: no-repeat;
+        /* Scale the background image to be as large as possible */
+        background-size: cover;
+        background-color: #94B2A9;
+    }
+    body {
+        color: white;
+        background-color: #94B2A9;
+    }
+    /*These rules format the site navigation*/
+    
+    nav {
+        top: 0;
+        width: 100%;
+        background-color: #C7CC9A;
+        height: 50px;
+        text-align: center;
+    }
+    li {
+        display: inline;
+        padding: 25px;
+    }
+    li a:hover {
+        color: white;
+    }
+    ul {
+        padding-top: 14px;
+        list-style-type: none;
+    }
+    a {
+        color: #666600;
+    }
+    a:hover {
+        color: white;
+    }
+    a:visited {
+        color: #F8FFC0;
+    }
+    nav {
+        width: 100%;
+    }
+    a:link {
+        text-decoration: none;
+        font-family: 'Slabo 13px', serif;
+    }
+    /*These rules format the site content*/
+    
+    .titlehome h1 {
+        font-size: 800%;
+        padding: 10%;
+        color: lemonchiffon;
+        font-family: 'Lobster Two', cursive;
+        font-weight: 100;
+        position: relative;
+    }
+    .indexp p {
+        color: #787F3A;
+        line-height: 25px;
+        margin-right: 45%;
+        text-align: center;
+        font-size: 130%;
+        line-height: 140%;
+        font-family: 'Slabo 13px', serif;
+    }
+    .indexp .breaks {
+        display: block;
+    }
+    .joinus {
+        color: #787F3A;
+        font-size: 150%;
+        font-weight: 700;
+    }
+    .wedding {
+        color: #787F3A;
+        font-size: 120%;
+        font-weight: 700;
+        margin-top: 15%;
+    }
+    h1 {
+        margin-left: 5%;
+        margin-bottom: 3%;
+        padding-top: 20px;
+        font-size: 175%;
+        color: white;
+        font-family: 'Slabo 13px', serif;
+        line-height: 25px;
+    }
+    h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: 'Slabo 13px', serif;
+        color: #F8FFC0;
+    }
+    h3 {
+        margin-left: 5%;
+        font-size: 20px;
+        font-family: 'Slabo 13px', serif;
+    }
+    p {
+        margin-left: 5%;
+        margin-bottom: 1%;
+        margin-right: 45%;
+        font-family: 'Slabo 13px', serif;
+        font-size: 100%;
+        color: #333300;
+        line-height: 25px;
+    }
+    .rsvpform {
+        margin-right: 45%;
+        margin-bottom: 10%;
+    }
+    .submit input[type=submit] {
+        background-color: #787F3A !important;
+    }
+    span {
+        font-size: 100%;
+        margin: 0px;
+    }
+    .travelcontent {
+        margin-right: 50%;
+    }
+    .travelloc {
+        margin-bottom: 2%;
+    }
+    .travellodge {
+        margin-bottom: 2%;
+    }
+    .traveltravel {
+        margin-bottom: 5%;
+    }
+    .portland {
+        color: white;
+    }
+    .contact {
+        text-decoration: none;
+        font-family: 'Slabo 13px', serif;
+        ;
+        margin-left: 5%;
+    }
+    .contacttext {
+        margin-bottom: 80px;
+        padding-top: 20px;
+    }
+    .contactimg {
+        width: 20px;
+        margin-left: 5%;
+        padding-top: 25px;
+    }
+    @media only screen and (min-width: 1100px) {
+        body {
+            font-size: 120%;
+        }
+        .wrap {
+            max-width: 770px;
+        }
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: #C7CC9A;
+        background-color: #60604D;
+        font-family: 'Slabo 13px', serif;
+        line-height:
+    }
