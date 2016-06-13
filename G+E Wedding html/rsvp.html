@@ -33,33 +33,32 @@
         <br>
         <link rel="stylesheet" href="formoid-rsvp_files/formoid1/formoid-metro-cyan.css" type="text/css" />
         <script type="text/javascript" src="formoid-rsvp_files/formoid1/jquery.min.js"></script>
-        <form class="formoid-metro-cyan" style="background-color:#C7CC9A;font-size:100%;font-family:'Slabo 13px',serif;color:#333300; max-width:480px;min-width:150px" method="post">
+        <form class="formoid-metro-cyan" style="background-color:#C7CC9A;font-size:100%;font-family:'Slabo 13px',serif;color:#333300; max-width:480px;min-width:150px" method="post" action="https://formspree.io/gregerica17@gmail.com">
             <div class="title">
                 <h2>RSVP</h2></div>
             <div class="element-input">
                 <label class="title">Your name<span class="required">*</span></label>
-                <input class="large" type="text" name="input" required="required" />
+                <input class="large" type="text" name="name" required="required" />
             </div>
             <div class="element-email">
-                <label class="title">Email</label>
-                <input class="large" type="email" name="email" value="" />
+                <label class="title">Email<span class="required">*</span></label>
+                <input class="large" type="email" name="email" required />
             </div>
             <div class="element-checkbox">
                 <label class="title">Can you attend?</label>
                 <div class="column column1">
                     <label>
-                        <input type="checkbox" name="checkbox[]" value="Yes, I love the mountains!" /><span>Yes, I love the mountains!</span></label>
+                        <input type="radio" name="response" value="Yes, I love the mountains!" /><span>Yes, I love the mountains!</span></label>
                     <label>
-                        <input type="checkbox" name="checkbox[]" value="No, I'm allergic to trees." /><span>No, I'm allergic to trees.</span></label>
+                        <input type="radio" name="response" value="No, I'm allergic to trees." /><span>No, I'm allergic to trees.</span></label>
                     <label>
-                        <input type="checkbox" name="checkbox[]" value="Not sure yet!" /><span>Not sure yet!</span></label>
+                        <input type="radio" name="response" value="Not sure yet!" /><span>Not sure yet!</span></label>
                 </div><span class="clearfix"></span>
             </div>
             <div class="element-multiple">
                 <label class="title">How many nights will you be staying?<span class="required">*</span></label>
                 <div class="large">
-                    <select data-no-selected="Nothing selected" name="multiple[]" multiple="multiple" required="required">
-
+                    <select data-no-selected="Nothing selected" name="nights">
                         <option value="Friday to Monday (all three nights)">Friday to Monday (all three nights)</option>
                         <option value="Friday to Sunday (two nights)">Friday to Sunday (two nights)</option>
                         <option value="Saturday to Monday (two nights)">Saturday to Monday (two nights)</option>
@@ -72,8 +71,7 @@
             <div class="element-multiple">
                 <label class="title">How many people in your party will be staying?</label>
                 <div class="large">
-                    <select data-no-selected="Nothing selected" name="multiple1[]" multiple="multiple">
-
+                    <select data-no-selected="Nothing selected" name="people">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -89,15 +87,16 @@
             </div>
             <div class="element-textarea">
                 <label class="title">Please list the full names of the people attending from your party.</label>
-                <textarea class="medium" name="textarea" cols="20" rows="5"></textarea>
+                <textarea class="medium" name="names" cols="20" rows="5"></textarea>
             </div>
             <div class="element-input">
                 <label class="title">Questions? Anthing else to add?</label>
-                <input class="large" type="text" name="input1" />
+                <textarea class="small" name="questions"></textarea>
             </div>
             <div class="submit">
                 <input type="submit" value="Submit" />
             </div>
+            <input type="hidden" name="_next" value="http://wedding.f0f.io/thanks.html" />
         </form>
 
         <script type="text/javascript" src="formoid-rsvp_files/formoid1/formoid-metro-cyan.js"></script>
