@@ -5,7 +5,7 @@
     }
     .fixed-bg {
         /* The background image */
-        background-image: url("../images/index-01.png");
+        background-image: url("../images/index.png");
         /* Set a specified height, or the minimum height for the background image */
         min-height: 1000px;
         /* Set background image to fixed (don't scroll along with the page) */
